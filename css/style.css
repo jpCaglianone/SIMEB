@@ -36,8 +36,8 @@ figure{
     width: 150px;
 }
 #logo{
-    width: 150px;
-    margin-top: 15px;
+    width: 200px;
+    margin-top: 10px;
     border-radius: 15px;
 }
 @media (max-width: 767px), (orientation: portrait) {
@@ -58,12 +58,12 @@ a{
 }
 
 p{
-    line-height: 40px;
+    line-height: 55px;
     height: 100%;
     width: 100%;
     transition: 1s all;
     font-weight: bold;
-    font-family: "Times New Roman";
+    font-family: Arial;
     font-size: 20px;
     color: var(--cor-secundaria);
 }
@@ -86,7 +86,7 @@ a:active{
 }
 
 main{
-    margin-top: 25px;
+    margin-top: 45px;
     background-color: var(--cor-letra);
     width: 98%;
     margin-left: 1%;
