@@ -1,0 +1,103 @@
+body{
+    background-color: var(--cor-principal);
+}
+#topo{
+    text-align: center;
+    background-color: var(--cor-principal);
+    color: silver;
+    padding: 40px 0;
+}
+header{
+    background-color: var(--cor-principal);
+}
+.whatsapp-icon{
+    background-color: greenyellow;
+    border-radius: 25px;
+    padding: 2px;
+    font-weight: bold;
+}
+#instagram{
+    background-color: #ca04d9;
+    padding: 2px;
+    border-radius: 2px;
+}
+nav{
+    background-image:linear-gradient(90deg, #3c61f6,blue,blue, blue, #3c61f6);
+    height: 75px;
+}
+
+.nav-link{
+    font-size: 18px;
+    color:var(--cor-secundaria);
+}
+
+figure{
+    margin-left: 20px;
+    width: 150px;
+}
+#logo{
+    width: 150px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+@media (max-width: 767px), (orientation: portrait) {
+    #logo {
+        width: 140px;
+        margin-top: -20px;
+        margin-right: auto;
+    }
+    
+}
+
+a{
+    transition: 1s all;
+    border-radius: 10px;
+    width: 200px;
+    height: 70px;
+    text-align: center;
+}
+
+p{
+    line-height: 40px;
+    height: 100%;
+    width: 100%;
+    transition: 1s all;
+    font-weight: bold;
+    font-family: "Times New Roman";
+    font-size: 20px;
+    color: var(--cor-secundaria);
+}
+a > p:hover{
+    color: #ffffff;
+    transition: 1s all;
+}
+
+a:hover{
+    background-color: var(--cor-principal);
+    transition: 1s all;
+}
+
+.navbar-nav{
+    margin: 0 auto;
+}
+a:active{
+    transform: scale(0.8);
+    transition: 0.1s all;
+}
+
+main{
+    margin-top: 25px;
+    background-color: var(--cor-letra);
+    width: 98%;
+    margin-left: 1%;
+    border-radius: 10px;
+    height: 850px; /*RETIRAR*/
+}
+
+footer{
+    text-align: center;
+}
+/*
+transition: color 1.5s linear 0.5s;
+transition: color 1s linear, font-size 750ms ease-in 100ms;
+ */

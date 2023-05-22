@@ -1,0 +1,60 @@
+/* Reset CSS */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+}
+
+/* Remove default padding */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    padding: 0;
+}
+
+/* Remove list styles (bullets/numbers) */
+ol,
+ul {
+    list-style: none;
+}
+
+/* Remove default anchor styles */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Remove default outline styles */
+button,
+input,
+textarea {
+    outline: none;
+}
+
+/* Optionally, you can add more reset styles as needed. */
+
+:root{
+    --cor-principal: #010d5e;
+    --cor-secundaria: silver;
+    --cor-letra:ghostwhite;
+}
