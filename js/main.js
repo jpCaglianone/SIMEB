@@ -27,8 +27,8 @@
 //     divElement.addEventListener("click", handleClick);
 // });
 
-function limparObjeto(){
-    let remocao = document.getElementById("cabecalho")
-    alert(remocao)
-    remocao.remove()
-}
+
+$(window).on('load', function(){
+    $("#cabecalho").load("../cabecalho.html");
+    $("#rodape").load("rodape.html");
+});
