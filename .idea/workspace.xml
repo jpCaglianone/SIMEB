@@ -5,13 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cabecalho.html" beforeDir="false" afterPath="$PROJECT_DIR$/cabecalho.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/contato.html" beforeDir="false" afterPath="$PROJECT_DIR$/contato.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/produtos.html" beforeDir="false" afterPath="$PROJECT_DIR$/produtos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/servicos.html" beforeDir="false" afterPath="$PROJECT_DIR$/servicos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sobre.html" beforeDir="false" afterPath="$PROJECT_DIR$/sobre.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rodape.html" beforeDir="false" afterPath="$PROJECT_DIR$/rodape.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +68,8 @@
       <workItem from="1688699581801" duration="817000" />
       <workItem from="1689598202756" duration="6423000" />
       <workItem from="1690119824179" duration="345000" />
-      <workItem from="1690120222072" duration="8368000" />
+      <workItem from="1690120222072" duration="9099000" />
+      <workItem from="1690889306863" duration="10476000" />
     </task>
     <servers />
   </component>
