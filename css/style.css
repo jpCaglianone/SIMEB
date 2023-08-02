@@ -60,6 +60,9 @@ a:hover{
 }
 
 @media (max-width: 767px), (orientation: portrait) {
+    header{
+        margin-bottom: 150px;
+    }
     #topo{
         display: block;
     }
@@ -74,8 +77,13 @@ a:hover{
         z-index: 1;
     }
 
-    .element3, .element2, .element1{
+    .element3, .element2, .element1 {
         visibility: hidden;
+        animation-name: none;
+    }
+
+    .animated-element{
+        animation-name: none;
     }
 }
 
