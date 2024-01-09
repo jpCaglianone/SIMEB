@@ -27,8 +27,18 @@
 //     divElement.addEventListener("click", handleClick);
 // });
 
+$(document).ready(function() {
 
-$(window).on('load', function(){
-    $("#cabecalho").load("../cabecalho.html");
-    $("#rodape").load("rodape.html");
+    $(window).on('load', function(){
+        $("#cabecalho").load("../cabecalho.html");
+        $("#rodape").load("rodape.html");
+    });
+
+
+    $(document).on('click', 'a', function(e) {
+        var textoDoParagrafo = $(this).find('p').text();
+        alert(textoDoParagrafo);
+    });
+
+
 });

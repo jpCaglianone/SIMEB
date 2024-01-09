@@ -38,7 +38,7 @@ figure{
     width: 275px;
 }
 #logo{
-    width: 275px;
+    width: 400px;
     border-radius: 15px;
     opacity: 1;
     margin-top: -25px;
@@ -64,20 +64,21 @@ a:hover{
     }
 
 @media (max-width: 767px), (orientation: portrait) {
-    header{
-        margin-bottom: 150px;
-    }
+  
     #topo{
         display: block;
+    }
+    nav{
+        margin-top: 75px;
     }
     figure{
         margin: auto;
     }
     .navbar{
-        height: 200px;
+        height: 100px;
     }
     #logo{
-        margin: -15px auto;
+        margin-left:-22%;
         z-index: 1;
     }
 
@@ -88,6 +89,11 @@ a:hover{
 
     .animated-element{
         animation-name: none;
+    }
+    footer{
+        position: fixed;
+        bottom: 0;
+        left: 30%;
     }
 }
 
@@ -116,16 +122,18 @@ a > p:hover{
     cursor: pointer;
 }
 
-a:hover{
+.nav-link:hover{
     background-color: var(--cor-apoio) ;
     transition: 1s all;
+    text-shadow: 2px 2px 2px #000000;
 }
 
 
-.navbar-nav{
+.navbar-nav {
     margin: 0 auto;
 }
-a:active{
+
+.nav-link:active {
     transform: scale(0.8);
     transition: 0.1s all;
 }
@@ -135,17 +143,26 @@ main{
     background-color: var(--cor-principal);
     width: 95%;
     margin: 50px auto 100px;
+}
+.principal{
     border-radius: 10px;
     border: 4px solid var(--cor-secundaria);
 }
 
-main > .container > p {
+main > .container > section {
+    margin-top: 40px;
+    margin-bottom: -15px;
+}
+
+main > .container > section > p {
     font-size:18px;
     color: var(--cor-secundaria);
     font-weight: bold;
     height: 75px;
     line-height: 25px;
     text-align: center;
+    margin-bottom:-10px;
+    
 }
 
 footer{
