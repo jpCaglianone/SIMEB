@@ -52,7 +52,16 @@ figure{
     right: 2.5%;
     top:85px;
     z-index: 1;
+    transition: all 0.25s;
 }
+
+#contato:hover{
+    background-color: aliceblue;
+    box-shadow: 0px 0px 25px 1px white;
+    cursor: pointer;
+    transition: all 0.25s;
+}
+
 a:hover{
     cursor: pointer;
 }
@@ -64,7 +73,6 @@ a:hover{
     }
 
 @media (max-width: 767px), (orientation: portrait) {
-  
     #topo{
         display: block;
     }
@@ -276,3 +284,32 @@ transition: color 1s linear, font-size 750ms ease-in 100ms;
     font-size: 16px;
 }
 
+button {
+    margin-right: 25px;
+    transition: all 0.25s;
+}
+
+button:hover{
+    transform: scale(1.1);
+    transition: all 0.25s ;
+    box-shadow: 0px 0px 25px -1px thistle;
+    font-weight: bold;
+}
+
+button:active{
+    transform: scale(0.9);
+    transition: all 0.25s ;
+}
+
+input:hover, textarea:hover{
+    box-shadow: 0px 0px 25px -1px thistle;
+}
+
+.fs-6{
+    width: 40%;
+    margin: 25px auto 50px;
+    line-height: 25px;
+    border: 2px solid var(--cor-secundaria);
+    padding: 20px;
+    border-radius: 10px;
+}

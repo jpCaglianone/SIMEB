@@ -16,27 +16,34 @@
 
     <main>
 
+        <p class="fs-6 text-center text-md2">Caro cliente, você pode entrar em contato conosco através do número de celular e whatsapp
+            (21) 9 7233-0971, ou preenchendo o formulário abaixo cuja mensagem será enviada por e-mail.</p>
+
         <div class="container mt-1">
-            <form>
+            <form id="formularioContato">
                 <div class="form-group">
                     <label for="nome">Nome:</label>
-                    <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+                    <input type="text" class="form-control" id="nome" placeholder="Digite seu nome:" required>
                 </div>
                 <div class="form-group">
                     <label for="email">E-mail:</label>
-                    <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail">
+                    <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail" required>
                 </div>
                 <div class="form-group">
-                    <label for="mensagem">Assunto:</label>
-                    <textarea class="form-control" id="mensagem" rows="1" placeholder="Assunto"></textarea>
+                    <label for="telefone">Telefone:</label>
+                    <input type="number" class="form-control" id="telefone" placeholder="Digite seu telefone de contato:" required>
+                </div>
+                <div class="form-group">
+                    <label for="assunto">Assunto:</label>
+                    <textarea class="form-control" id="assunto" rows="1" placeholder="Assunto" required></textarea>
                 </div>
                 <div class="form-group">
                     <label for="mensagem">Mensagem:</label>
-                    <textarea class="form-control" id="mensagem" rows="3" placeholder="Digite sua mensagem"></textarea>
+                    <textarea class="form-control" id="mensagem" rows="3" placeholder="Digite sua mensagem" required></textarea>
                 </div>
                 <br>
-                <button type="submit" class="btn btn-success">Enviar
-                <button type="submit" class="btn btn-danger">Limpar campos</ul>
+                <button type="submit" class="btn btn-success" id="enviarForm">Enviar
+                <button type="submit" class="btn btn-danger" id="limparForm">Limpar campos</ul>
             </form>
         </div>
 
@@ -49,6 +56,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <script src="js/main.js"></script>
+    <script src="js/form.js"></script>
 
 </body>
 </html>

@@ -27,7 +27,6 @@
 //     divElement.addEventListener("click", handleClick);
 // });
 
-$(document).ready(function() {
 
     $(window).on('load', function(){
         $("#cabecalho").load("../cabecalho.html");
@@ -40,7 +39,5 @@ $(document).ready(function() {
     //     alert(textoDoParagrafo);
     // });
 
-
-});
 
 
