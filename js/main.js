@@ -30,7 +30,6 @@
 
     $(window).on('load', function(){
         $("#cabecalho").load("../cabecalho.html");
-        $("#rodape").load("../rodape.html");
     });
 
 
