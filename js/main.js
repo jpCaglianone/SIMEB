@@ -27,7 +27,6 @@
 //     divElement.addEventListener("click", handleClick);
 // });
 
-alert("teste")
 
     $(window).on('load', function(){
         $("#cabecalho").load("../cabecalho.html");
