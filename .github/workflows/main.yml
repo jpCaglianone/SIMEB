@@ -17,7 +17,8 @@ jobs:
     - name: Atualizar Data do Commit
       run: |
         DATA_COMMIT=$(date +"%d/%m/%Y %H:%M:%S")
-        sed -i "s/<!--DATA_COMMIT-->/$DATA_COMMIT/" index.html
+        sed -i "s|<!--DATA_COMMIT-->|$DATA_COMMIT|" index.html
+      
 
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
